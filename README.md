@@ -1,7 +1,7 @@
 # 软件工程 🛠️
 
 ## 团队 Logo
-< img src="downloaded-image.png" width="300" alt="团队Logo" style="display: block; margin: 0 auto;" />
+![团队logo](downloaded-image.png)
 
 > **设计理念**：
 🎨 颜色含义
