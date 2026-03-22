@@ -1,7 +1,7 @@
 # 软件工程 🛠️
 
 ## 团队 Logo
-<img width="2048" height="2048" alt="downloaded-image" src="https://github.com/user-attachments/d26481ac-525b-43f5-8d8d-2f225e7119f1" />
+![项目Logo](https://github.com/username/repo/blob/main/downloaded-image.png?raw=true)
 > **设计理念**：
 🎨 颜色含义
  
