@@ -1,7 +1,8 @@
-# 软件工程 🛠️
+<img width="2048" height="2048" alt="downloaded-image" src="https://github.com/user-attachments/assets/d26481ac-525b-43f5-8d8d-2f225e7119f1" /># 软件工程 🛠️
 
 ## 团队 Logo
-![团队Logo](这里替换成你的Logo图片链接)
+![Uploading downloaded-image.png…]()
+(这里替换成你的Logo图片链接)
 
 > **设计理念**：
 > 以代码与齿轮为核心元素，象征软件工程的严谨与协作；蓝色主调代表技术理性，橙色点缀代表创新活力，整体简洁现代，契合团队高效开发的愿景。
