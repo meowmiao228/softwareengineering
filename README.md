@@ -1,7 +1,7 @@
 # 软件工程 🛠️
 
 ## 团队 Logo
-![项目Logo](https://github.com/username/repo/blob/main/downloaded-image.png?raw=true)
+![项目Logo](https://github.com/meowmiao228/SoftwareEngineering/blob/main/downloaded-image.png)
 > **设计理念**：
 🎨 颜色含义
  
