@@ -36,6 +36,12 @@
 
 ## 五、GitHub仓库地址
 https://github.com/meowmiao228/SoftwareEngineering.git
+## 运行方法
+1. 从 GitHub 克隆代码：git clone https://github.com/meowmiao228/SoftwareEngineering.git
+2. 进入项目文件夹：cd SoftwareEngineering
+3. 安装依赖：pip install -r requirements.txt
+4. 运行智能体：python agent.py
+5. 打开浏览器访问：http://127.0.0.1:5000
 
 ## 六、小组分工
 - 成员1：智能体核心逻辑、MCP工具开发
