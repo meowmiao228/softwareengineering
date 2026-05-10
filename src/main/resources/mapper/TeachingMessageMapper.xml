@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.aicao.teaching.mapper.TeachingMessageMapper">
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+        INSERT INTO teaching_message (session_id, role, content)
+        VALUES (#{sessionId}, #{role}, #{content})
+    </insert>
+
+    <select id="countBySessionId" resultType="long">
+        SELECT COUNT(*) FROM teaching_message WHERE session_id = #{sessionId}
+    </select>
+
+    <select id="selectPageBySessionId" resultType="org.example.aicao.teaching.domain.TeachingMessage">
+        SELECT id, session_id AS sessionId, role, content, created_at AS createdAt
+        FROM teaching_message
+        WHERE session_id = #{sessionId}
+        ORDER BY created_at ASC
+        LIMIT #{limit} OFFSET #{offset}
+    </select>
+
+    <select id="selectLatestBySessionId" resultType="org.example.aicao.teaching.domain.TeachingMessage">
+        SELECT id, session_id AS sessionId, role, content, created_at AS createdAt
+        FROM teaching_message
+        WHERE session_id = #{sessionId}
+        ORDER BY created_at DESC
+        LIMIT #{limit}
+    </select>
+</mapper>
